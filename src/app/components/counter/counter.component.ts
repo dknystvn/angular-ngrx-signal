@@ -1,5 +1,7 @@
 import {Component, inject, Signal} from '@angular/core';
 import {CounterStore} from "../../store/counter.store";
+import {StateSignal} from "@ngrx/signals/src/state-signal";
+
 
 @Component({
   selector: 'app-counter',
@@ -10,6 +12,7 @@ import {CounterStore} from "../../store/counter.store";
   providers: [CounterStore]
 })
 export class CounterComponent {
+
 readonly counterStore = inject(CounterStore);
 counter: Signal<number> = this.counterStore.count;
 }

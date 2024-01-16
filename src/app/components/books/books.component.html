@@ -1,0 +1,14 @@
+<div class="book-container">
+  @for (book of books(); track book) {
+    <ul>
+      <li>{{ book.id }}</li>
+      <li>{{ book.volumeInfo.title }}</li>
+      <li>{{ book.volumeInfo.authors }}</li>
+    </ul>
+  }
+</div>
+<p>Number of books: {{booksCount() }}</p>
+<p>Counter: {{counter() }}</p>
+<p>CallState: {{ isLoading() }}</p>
+
+<button (click)="create()">CREATE</button>

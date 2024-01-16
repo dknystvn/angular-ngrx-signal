@@ -1,0 +1,11 @@
+
+<ul>
+  @for (movie of movies(); track movie.title) {
+    <li>{{ movie.title }}</li>
+  }
+</ul>
+
+<p>EntityId: {{ids()}}</p>
+<button (click)="remove()">RemoveEntity</button>
+
+

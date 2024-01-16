@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": "2001",
+      "type": "movie",
+      "poster": "https://static.posters.cz/image/750/harry-potter-philosopher-s-stone-i104639.jpg"
+    },
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": "2002",
+      "type": "movie",
+      "poster": "https://musicart.xboxlive.com/7/08e15000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"
+    }
+  ]
+}
