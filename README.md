@@ -1,4 +1,6 @@
 # AngularNgrxSignal
+Sandbox for NGRX Signal Store with Angular Standalone API's
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
